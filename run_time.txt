@@ -1,0 +1,39 @@
+Generating Primes in range 1-10000000
+Run time: 12.6217
+
+Finding Emirps in the Primes 
+Run time: 2.01773
+
+Finding Palindromes in the Primes 
+Run time: 2.01773
+Using Sieve of Eratosthenes to Generate Primes
+Generating Primes in range 1-10000000
+Run time: 11.7718
+
+Finding Emirps in the Primes 
+Run time: 1.8228
+
+Finding Palindromes in the Primes 
+Run time: 1.8228
+
+
+Using Sieve of Eratosthenes to Generate Primes
+Generating Primes in range 1-10000000
+Run time: 11.9395
+
+Finding Emirps in the Primes 
+Run time: 1.82784
+
+Finding Palindromes in the Primes 
+Run time: 1.82784
+
+
+Using Sieve of Eratosthenes to Generate Primes
+Generating Primes in range 1-10000000
+Run time: 11.8769 sec
+
+Finding Emirps in the Primes 
+Run time: 1.83345 sec
+
+Finding Palindromes in the Primes 
+Run time: 1.13803 sec
