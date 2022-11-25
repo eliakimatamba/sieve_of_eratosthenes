@@ -5,7 +5,6 @@
 #include <assert.h>
 #include <chrono>
 #include <fstream>
-// global primes and emirps containers
 
 // make changes to vary output
 bool legal_rules()
@@ -69,12 +68,10 @@ bool is_prime(unsigned int check)
 
 std::vector<unsigned int> emirp_finder(std::vector<unsigned int> gen_primes)
 {
-	
+
 	std::vector<unsigned int> emirps;
 	for (auto prime_number : gen_primes)
 		if (is_prime(reverse_number(prime_number)))
-			//eliminating single digit primes since they're all emirps of themselves
-			//considering the reverse of all single digits is the number itself
 			if (prime_number > 10)
 				emirps.push_back(prime_number);
 	return emirps;
